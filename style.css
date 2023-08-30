@@ -35,6 +35,7 @@ body {
 img {
     display: block;
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -86,11 +87,16 @@ main {
     background-color: var(--color-primary-dark-desaturated-blue);
     display: flex;
     width: 77%;
-    height: 31.86rem;
+    height: 55.75%;
+    overflow: hidden;
 }
 
 .preview-card__text-half, .preview-card__img-half {
     width: 50%;
+    height: 100%;
+}
+
+.preview-card__img-half {
 }
 
 
